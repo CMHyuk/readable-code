@@ -36,7 +36,7 @@ public class Cell {
     }
 
     public void flag() {
-        this.isLandMine = true;
+        this.isFlagged = true;
     }
 
     public void open() {
