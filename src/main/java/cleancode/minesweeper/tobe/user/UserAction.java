@@ -1,4 +1,4 @@
-package cleancode.minesweeper.user;
+package cleancode.minesweeper.tobe.user;
 
 public enum UserAction {
 

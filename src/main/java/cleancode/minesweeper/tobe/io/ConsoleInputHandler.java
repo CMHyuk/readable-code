@@ -2,7 +2,7 @@ package cleancode.minesweeper.tobe.io;
 
 import cleancode.minesweeper.tobe.BoardIndexConverter;
 import cleancode.minesweeper.tobe.position.CellPosition;
-import cleancode.minesweeper.user.UserAction;
+import cleancode.minesweeper.tobe.user.UserAction;
 
 import java.util.Scanner;
 
