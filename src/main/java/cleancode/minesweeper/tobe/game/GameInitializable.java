@@ -1,4 +1,4 @@
-package cleancode.minesweeper.game;
+package cleancode.minesweeper.tobe.game;
 
 public interface GameInitializable {
 
