@@ -69,9 +69,9 @@ public class GameBoard {
         return cellPosition.isRowIndexMoreThanOrEqual(rowSize) || cellPosition.isColIndexMoreThanOrEqual(colSize);
     }
 
-    public String getSign(CellPosition cellPosition) {
+    public CellSnapshot getSnapshot(CellPosition cellPosition) {
         Cell cell = findCell(cellPosition);
-        return cell.getSign();
+        return cell.getSnapshot();
     }
 
     public void flagAt(CellPosition cellPosition) {
@@ -148,5 +148,4 @@ public class GameBoard {
         Cell cell = findCell(cellPosition);
         return cell.isOpened();
     }
-
 }
